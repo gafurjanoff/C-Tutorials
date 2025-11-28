@@ -3,9 +3,35 @@
 
 int main(void){
 
+    
+    int myAge;
+    // int x = 5, y = 6, z = 50;
+
+    int x, y, z;
+    x = y = z = 50;
+
+    char myFirstName[]="Samandar";
+    char myLastName[]="Gofurjonov";
+    char _myNickName[] = "@gafurjanoff";
+    
+    char myGender;
+    float myWeight;
+
+    myWeight = 75.6;
+    myAge = 21;
+    myGender = 'M';
+
+    printf("Hello My name is %s and My Lastname is %s\n", myFirstName, myLastName);
+    printf("My telegram username is %s\n", _myNickName);
+    printf("Now, I'll give info about my age. I am %d year old and My weight is %f\n", myAge, myWeight);
     printf("Hello world, this is my first program in C programming language!\n");
-    printf ("Programming is fun.\n");
-    printf ("And programming in C is even more fun.\n");
+    printf ("Programming is fun.\t");
+    printf ("And programming in C is even more fun.\t");
     printf ("Testing...\n..1\n...2\n....3\n");
+
+    printf("Sum of %d and %d is %d\n",x , y,  x + y + z);
+
+
     return 0;
 }
+
