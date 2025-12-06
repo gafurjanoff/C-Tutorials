@@ -4,12 +4,16 @@
 int main(void){
 
     
-    int myAge;
+
     // int x = 5, y = 6, z = 50;
 
-    int x, y, z;
+    int myAge, x, y, z, length, width, area, xlimit;
     x = y = z = 50;
 
+    length = 10;
+    width=20;
+
+    area = length * width;
     char myFirstName[]="Samandar";
     char myLastName[]="Gofurjonov";
     char _myNickName[] = "@gafurjanoff";
@@ -21,6 +25,8 @@ int main(void){
     myAge = 21;
     myGender = 'M';
 
+
+    printf("Int limit %d\n", xlimit);
     printf("Hello My name is %s and My Lastname is %s\n", myFirstName, myLastName);
     printf("My telegram username is %s\n", _myNickName);
     printf("Now, I'll give info about my age. I am %d year old and My weight is %f\n", myAge, myWeight);
@@ -30,6 +36,10 @@ int main(void){
     printf ("Testing...\n..1\n...2\n....3\n");
 
     printf("Sum of %d and %d is %d\n",x , y,  x + y + z);
+
+
+    printf("The area of the rectangle with width %d and length %d is: %d \n", width, length, area);
+
 
 
     return 0;
