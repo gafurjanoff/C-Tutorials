@@ -20,13 +20,18 @@ printf("a is less than b >> a is %d and b is %d\n", a , b);
 
 int main(){
 
-    greater(12,14);
 
+    const int var = 67;
+    // var = 67;
+    greater(12,14);
+    printf("Var value: %d\n", var);
     printf("the result of the expression a * b  + c is: %d\n", 5 * addtwo(4,3));
     printf("The sum of x + y >>> %d\n", add(12,5));
     printf("PI value:  %5f\n", PI);
     printf("value: %d\n",  value);
 
+    printf("Date: %s\t", __DATE__);
+    printf("Time: %s\n", __TIME__);
 
 
 
