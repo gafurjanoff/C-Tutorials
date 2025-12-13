@@ -8,3 +8,5 @@ extrn
 range
 add
 const
+input
+memory
