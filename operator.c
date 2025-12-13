@@ -56,5 +56,34 @@ int main() {
 
 
 
+    /*
+    Increment (Pre-increment and Post-increment) operators
+               ++a;                a++;
+
+    Decrement (Pre-decrement and Post-decrement) operators
+                --a;                a--;
+    */ 
+
+
+
+    int son1=3, son2=2, son3 = 4, son4 = 3, son5=5, son6=6;
+
+    // first use and the increment or decrement
+    printf("%d\n", son1+++son2 );
+
+    printf("Son1 : %d\n", son1);
+    printf("Son3 : %d\n", son4);
+
+    // first increment or decrement and then use
+    printf("Result: %d\n", son3+ ++son4);
+
+    printf("Son5 : %d\n", son5);
+    printf("Result: %d\n", son5++ + ++son6);
+    printf("Son6 : %d\n", son6);
+    printf("Son5 : %d\n", son5);
+
+
     return 0;
+
+
 }
