@@ -83,6 +83,63 @@ int main() {
     printf("Son5 : %d\n", son5);
 
 
+    /*Relational Operators
+    
+    == ;   !=;  <=;  >=;  < ; >;
+
+    4 == 5 is equivalent to is 4 == 5 ? 
+
+    Answer: False
+
+    4 != 5  is equivalent to 4 != 5 ?
+
+    Answer: True
+
+    All relational operators will return  either True or False;
+    */ 
+
+
+
+    // Logical Operators
+
+    /*
+    
+    && (AND) ; || (OR)  ;  ! (NOT);
+
+    */
+
+
+    // Concept of Short Circuit 
+
+    int number1 = 5, number2 = 6;
+
+    int incre;
+
+    // incre = (number1 > number2) && (number2++);
+
+    // printf("Case is: %d\n", incre);
+    // printf("The result is: %d\n", number2);
+
+
+    // incre = (number1 < number2) && (number2++);
+    
+    // printf("Case is: %d\n", incre);
+    // printf("The result is: %d\n", number2);
+
+
+    // incre = (number1 < number2) || (number2++);
+    
+    // printf("Case is: %d\n", incre);
+    // printf("The result is: %d\n", number2);
+
+
+    incre = (number1 > number2) || (number2++);
+    
+    printf("Case is: %d\n", incre);
+    printf("The result is: %d\n", number2);
+
+
+
     return 0;
 
 
